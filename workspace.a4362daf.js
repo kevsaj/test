@@ -366,8 +366,8 @@ parcelRequire = function(e, r, t, n) {
                 e.entities = [];
                 var i = new Image;
                 return i.onload = function() {
-                    var r = 100
-                      , n = 100
+                    var r = 140
+                      , n = 1500
                       , o = new t.default(i,t.default.GeometryHorizontalLinear(r, n, 4));
                     e.sprites = {
                         ditto: o
@@ -375,7 +375,7 @@ parcelRequire = function(e, r, t, n) {
                     e.main()
                 }
                 ,
-                i.src = "123176064_632962060733429_4073062813684129412_n.jpg",
+                i.src = "image__2_-removebg-preview.png",
                 e
             }
             return p(n, e.default),

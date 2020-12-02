@@ -257,9 +257,9 @@ parcelRequire = function(e, r, t, n) {
             value: !0
         }),
         exports.default = void 0;
-        var t = o(require("./Sprite.js"))
-          , e = o(require("./Scene.js"))
-          , i = n(require("./Random.js"));
+        var t = o(require("Sprite.js"))
+          , e = o(require("Scene.js"))
+          , i = n(require("Random.js"));
         function r() {
             if ("function" != typeof WeakMap)
                 return null;
@@ -356,7 +356,7 @@ parcelRequire = function(e, r, t, n) {
             }
             )(t, e)
         }
-        require("./RoundedRect.js");
+        require("RoundedRect.js");
         var d = function(r) {
             function n() {
                 var e;
@@ -366,7 +366,7 @@ parcelRequire = function(e, r, t, n) {
                 e.entities = [];
                 var i = new Image;
                 return i.onload = function() {
-                    var r = 140
+                    var r = 160
                       , n = 1500
                       , o = new t.default(i,t.default.GeometryHorizontalLinear(r, n, 4));
                     e.sprites = {
@@ -375,7 +375,7 @@ parcelRequire = function(e, r, t, n) {
                     e.main()
                 }
                 ,
-                i.src = "image__2_-removebg-preview.png",
+                i.src = "image__5_-removebg-preview.png",
                 e
             }
             return p(n, e.default),
@@ -536,14 +536,14 @@ parcelRequire = function(e, r, t, n) {
         exports.default = g;
     }
     , {
-        "./Sprite.js": "TCu9",
-        "./Scene.js": "Js4U",
-        "./Random.js": "LeK6",
-        "./RoundedRect.js": "HiAH"
+        "Sprite.js": "TCu9",
+        "Scene.js": "Js4U",
+        "Random.js": "LeK6",
+        "RoundedRect.js": "HiAH"
     }],
     "Focm": [function(require, module, exports) {
         "use strict";
-        var e = n(require("./js/KongaScene.js"));
+        var e = n(require("KongaScene.js"));
         function n(e) {
             return e && e.__esModule ? e : {
                 default: e
@@ -612,7 +612,7 @@ parcelRequire = function(e, r, t, n) {
         document.addEventListener("DOMContentLoaded", r);
     }
     , {
-        "./js/KongaScene.js": "oCom"
+        "KongaScene.js": "oCom"
     }]
 }, {}, ["Focm"], null)
 //# sourceMappingURL=workspace.a4362daf.js.map
